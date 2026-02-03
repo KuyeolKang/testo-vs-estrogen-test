@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "019c1277-8d80-73c8-8e85-945fdac97778",
+  "name": "testo-vs-estrogen-test",
   "main": "./src/worker/index.ts",
   "compatibility_date": "2025-06-17",
   "compatibility_flags": ["nodejs_compat"],
@@ -10,18 +10,5 @@
   "upload_source_maps": true,
   "assets": {
     "not_found_handling": "single-page-application"
-  },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "019c1277-8d80-73c8-8e85-945fdac97778",
-      "database_id": "019c1277-8d80-73c8-8e85-945fdac97778"
-    }
-  ],
-  "r2_buckets": [
-    {
-      "binding": "R2_BUCKET",
-      "bucket_name": "019c1277-8d80-73c8-8e85-945fdac97778"
-    }
-  ]
+  }
 }
